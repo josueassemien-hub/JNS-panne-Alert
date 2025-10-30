@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion | JNS-panneAlert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="simple-header">
+    <h1>Connexion</h1>
+  </header>
+
+  <section class="form-section">
+    <form id="loginForm">
+      <label for="email">Email :</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" required>
+
+      <label for="role">Type d'utilisateur :</label>
+      <select id="role">
+        <option value="citoyen">Citoyen</option>
+        <option value="admin">Administrateur</option>
+      </select>
+
+      <button type="submit">Se connecter</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
